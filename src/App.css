@@ -7,11 +7,22 @@ body {
   text-align: center;
 }
 
+#projDiv,
+#abMe {
+  outline: black thick;
+}
+
 #carousel {
   background-color: silver;
   height: 90%;
   width: 90%;
-  padding: 10px;
+  padding: 3%;
+  margin: 3%;
+}
+
+.carousel-item {
+  height: 750px;
+  width: 500px;
 }
 
 #profilePic,
