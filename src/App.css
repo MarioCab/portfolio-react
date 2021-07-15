@@ -2,8 +2,20 @@ body {
   background-color: rgb(58, 49, 49);
 }
 
-#NavBar {
+#NavBar,
+#carousel {
   text-align: center;
-  background-color: blue;
-  padding: 1px;
+}
+
+#carousel {
+  background-color: silver;
+  height: 90%;
+  width: 90%;
+  padding: 10px;
+}
+
+#profilePic,
+#minddump {
+  height: 100%;
+  width: 100%;
 }
