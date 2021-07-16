@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carosoul";
-
+import Contact from "./components/Contact";
 import profile from "./imgs/Mario-wedding-help.jpg";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             alt="profilePic"
           ></img>
         </div>
-        <div className="col-7">
+        <div className="col-7" href="#abMe">
           <h2>About Me</h2>
           <p>
             My name is Mario Cabrera, and welcome to my portfolio page. Use the
@@ -59,14 +59,13 @@ function App() {
           </p>
         </div>
       </div>
-      <container>
-        <div class="row" id="projDiv">
-          <h1 className="row justify-content-center">Projects:</h1>
-          <div id="carousel" className="col">
-            <Carousel />
-          </div>
-        </div>
-      </container>
+      <div id="projDiv" href="#proj">
+        <h1>Projects:</h1>
+        <Carousel />
+      </div>
+      <div id="contactPg" href="#contactPg">
+        <Contact />
+      </div>
     </>
   );
 }
