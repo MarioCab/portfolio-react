@@ -23,10 +23,8 @@ function App() {
         <div className="col-7" href="#abMe">
           <h2>About Me</h2>
           <p>
-            My name is Mario Cabrera, and welcome to my portfolio page. Use the
-            NavBar to automatically scroll to where you want to be directed to,
-            or click the "Resume" link to open my resume in a seperate tab. I
-            keep this page consistantly updated with my latest projects/contact
+            My name is Mario Cabrera, and welcome to my portfolio page. I keep
+            this page consistantly updated with my latest projects/contact
             information, so feel free to check them out or reach out at any
             time.
           </p>
@@ -59,7 +57,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div id="projDiv" href="#proj">
+      <div id="projDiv">
         <h1>Projects:</h1>
         <Carousel />
       </div>

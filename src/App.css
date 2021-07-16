@@ -21,6 +21,12 @@ h2 {
   color: whitesmoke;
 }
 
+contactPage {
+  align-content: center;
+  text-align: center;
+  display: flexbox;
+}
+
 #projDiv,
 #abMe {
   outline: black thick;
@@ -30,6 +36,7 @@ h2 {
 p {
   background-color: rgb(44, 55, 56);
   color: whitesmoke;
+  text-align: center;
 }
 #profilePic,
 #minddump {
